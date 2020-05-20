@@ -359,6 +359,21 @@ ul li{
     .head1{
         margin: 3vh;
     }
+  
+   .para{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1.2px black;
+    font-weight: 400;
+}
+        
+        
+        
+        
+    
     .column{
         width: 100%;
         display: block;
