@@ -18,8 +18,8 @@
             die('Connect Error('.mysqli_connect_errno().')'.mysqli_connect_error());
         }
         else{
-            $SELECT="SELECT email FROM register Where email=? Limit 1";
-            $INSERT = "INSERT Into register (username,phone,email,address1,subj,mess)values(?,?,?,?,?,?)";
+            $SELECT="SELECT email FROM register1 Where email=? Limit 1";
+            $INSERT = "INSERT Into register1 (username,phone,email,address1,subj,mess)values(?,?,?,?,?,?)";
 
             $stmt=$conn->prepare($SELECT);
             $stmt->bind_param("s",$email);
