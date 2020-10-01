@@ -64,13 +64,13 @@
   .nav-menu a {
       background-color: black;
     padding: 6px 8px 6px 8px;
-    border: rgb(252, 3, 3) 0.2px solid;
+    border: rgb(255, 153, 0) 0.2px solid;
     text-decoration: none;
     display: inline-block;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 153, 0);
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     outline: none;
   }
   .nav-menu > li {
@@ -441,7 +441,7 @@
       background-color: black;color: blanchedalmond;border: yellow 1px solid;
   }
   .hmm1 ul li a{
-      color: red;
+      color:#e2ad1c;
   }
   .hmm1 ul li a:hover{
       color: rgb(246, 250, 0);
